@@ -15,7 +15,7 @@ Resources:
     Properties:
       CodeUri: policy_maker/
       Handler: app.handler
-      Runtime: python3.11
+      Runtime: python3.13
       Role: !GetAtt FunctionRole.Arn
 
   FunctionRole:
